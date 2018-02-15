@@ -15,7 +15,7 @@ author:
   name:           'dq'
   url:            https://github.com/dqisme
 
-paginate:         1
+paginate:         50
 
 # Custom vars
 version:          1.0.0
