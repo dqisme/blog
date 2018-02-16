@@ -14,6 +14,7 @@ url:              http://dqis.me
 author:
   name:           'dq'
   url:            https://github.com/dqisme
+  email:          'dqisme@outlook.com'
 
 paginate:         50
 
