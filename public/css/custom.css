@@ -5,3 +5,7 @@ a:hover {
 .pagination-item {
 	border: none;
 }
+
+.mi, .mo {
+	color: initial;
+}
