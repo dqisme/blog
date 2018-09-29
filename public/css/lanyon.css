@@ -261,7 +261,7 @@ a.sidebar-nav-item:focus {
  *
  * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
  */
-/*
+
 .wrap,
 .sidebar,
 .sidebar-toggle {
@@ -274,6 +274,7 @@ a.sidebar-nav-item:focus {
       -ms-perspective: 1000;
           perspective: 1000;
 }
+/*
 .sidebar {
   -webkit-transition: all .3s ease-in-out;
      -moz-transition: all .3s ease-in-out;
