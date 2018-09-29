@@ -10,6 +10,7 @@ title:            D.Q
 tagline:          ''
 description:      'The world is all that is the case.'
 url:              http://dqis.me
+baseurl:          "/blog"
 
 author:
   name:           'dq'
