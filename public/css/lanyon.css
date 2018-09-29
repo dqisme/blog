@@ -287,6 +287,7 @@ a.sidebar-nav-item:focus {
       -ms-transition: left .3s ease-in-out;
           transition: left .3s ease-in-out;
 }
+*/
 
 #sidebar-checkbox:checked + .sidebar {
   left: 0;
@@ -295,7 +296,7 @@ a.sidebar-nav-item:focus {
 #sidebar-checkbox:checked ~ .wrap {
   left: 14rem;
 }
-*/
+
 
 /*
  * Posts and pages
