@@ -23,3 +23,15 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+{% assign path = page.path | split:"/" %}
+{% assign language = path[1] %}
+<h2>
+  {% case language %}
+    {% when 'zh' %}
+      参考资料
+    {% else %}
+      Bibliography
+  {% endcase %}
+</h2>
+{% assign name = page.id | split:'/' | last %}
+{% bibliography --file {{name}}.bib %}
