@@ -23,12 +23,4 @@ paginate:         50
 version:          1.0.0
 
 # Gems
-plugins: [jekyll-paginate, jekyll/scholar]
-
-# jekyll-scholar
-scholar:
-  bibliography: '*.bib'
-  bibliography_template: <abbr>[{{type}}]</abbr>{{reference | markdownify}}
-  bibtex_filters:
-    - latex
-    - markdown
+plugins: [jekyll-paginate]
